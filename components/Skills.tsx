@@ -32,11 +32,11 @@ export default function Skills() {
       icon: "ri-code-s-slash-line",
       color: "blue",
       skills: [
-        { name: "React.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "Next.js", level: 88 },
-        { name: "Vue.js", level: 85 },
-        { name: "Tailwind CSS", level: 92 },
+        { name: "React.js", level: 70 },
+        { name: "TypeScript", level: 50 },
+        { name: "Next.js", level: 70 },
+        { name: "Vue.js", level: 10 },
+        { name: "Tailwind CSS", level: 60 },
         { name: "JavaScript", level: 95 }
       ]
     },
@@ -45,12 +45,13 @@ export default function Skills() {
       icon: "ri-server-line",
       color: "green",
       skills: [
-        { name: "Node.js", level: 92 },
-        { name: "Python", level: 88 },
-        { name: "Express.js", level: 90 },
-        { name: "GraphQL", level: 85 },
-        { name: "REST APIs", level: 95 },
-        { name: "PostgreSQL", level: 87 }
+        { name: "Cake PHP", level: 95 },
+        { name: "PHP", level: 95 },
+        { name: "MySQL", level: 95 },
+        { name: "Codeigniter", level: 70 },
+        { name: "Laravel", level: 80 },        
+        { name: "Node.js", level: 20 },
+        { name: "REST APIs", level: 95 } 
       ]
     },
     {
@@ -58,12 +59,8 @@ export default function Skills() {
       icon: "ri-cloud-line",
       color: "purple",
       skills: [
-        { name: "AWS", level: 88 },
-        { name: "Docker", level: 85 },
-        { name: "Kubernetes", level: 80 },
-        { name: "CI/CD", level: 90 },
-        { name: "Terraform", level: 75 },
-        { name: "Monitoring", level: 85 }
+        { name: "AWS", level: 30 },
+        { name: "Docker", level: 50 }
       ]
     },
     {
@@ -75,8 +72,7 @@ export default function Skills() {
         { name: "Project Management", level: 88 },
         { name: "Mentoring", level: 90 },
         { name: "Technical Architecture", level: 87 },
-        { name: "Code Review", level: 95 },
-        { name: "Stakeholder Communication", level: 85 }
+        { name: "Code Review", level: 95 }
       ]
     }
   ];

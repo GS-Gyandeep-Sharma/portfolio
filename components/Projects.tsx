@@ -29,65 +29,105 @@ export default function Projects() {
   
   const projects = [
     {
-      title: "Enterprise Resource Planning System",
-      category: "Enterprise",
-      description: "Comprehensive ERP solution serving 500+ employees with modules for HR, Finance, and Operations.",
+      title: "Spotlight",
+      category: "Web Apps",
+      description: "Use to advertise your business or product on different social media",
       image: "https://readdy.ai/api/search-image?query=Modern%20enterprise%20resource%20planning%20dashboard%20interface%2C%20clean%20business%20application%20design%2C%20data%20visualization%20charts%2C%20professional%20corporate%20software%20interface%2C%20blue%20and%20white%20color%20scheme%2C%20organized%20layout%20with%20multiple%20widgets%20and%20analytics&width=600&height=400&seq=erp-project&orientation=landscape",
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
-      features: ["Real-time Analytics", "Role-based Access", "API Integration", "Cloud Deployment"],
-      link: "#",
-      github: "#"
+      technologies: ["Cake PHP"," Javascript","HTML", "MySQL", "CSS", "Jquery", "Google Ads API", "Facebook Business API", "Google My Business API", "Python"],
+      features: ["Real-time Analytics", "Role-based Access", "API Integration", "Social Media Advertising", "Social Media Management","Bulk Upload","Payment Gateway"],
+      link: "https://myspotlight.co/",
     },
     {
-      title: "E-commerce Platform",
-      category: "E-commerce",
-      description: "Full-featured online marketplace with vendor management, payment processing, and analytics.",
+      title: "Indian Oil Dashboard",
+      category: "Web Apps",
+      description: "Dashboard to manage the Indian Oil Corporation's assets.",
       image: "https://readdy.ai/api/search-image?query=Modern%20e-commerce%20website%20interface%2C%20clean%20online%20shopping%20platform%20design%2C%20product%20grid%20layout%2C%20shopping%20cart%20functionality%2C%20professional%20retail%20website%2C%20modern%20UI%20design%20with%20product%20showcases%20and%20navigation&width=600&height=400&seq=ecommerce-project&orientation=landscape",
-      technologies: ["Next.js", "Stripe", "MongoDB", "Docker"],
-      features: ["Multi-vendor Support", "Payment Gateway", "Inventory Management", "Mobile Responsive"],
-      link: "#",
-      github: "#"
+      technologies: ["Laravel", "HTML", "CSS", "MySQL", "JavaScript", "JQuery", "Push APIs"],
+      features: ["Review Management"],
     },
     {
-      title: "Real-time Collaboration Tool",
+      title: "Local Monitor",
       category: "Web Apps",
-      description: "Team productivity platform with real-time editing, video calls, and project management features.",
+      description: "This product used to rank your business with near by same category business.",
       image: "https://readdy.ai/api/search-image?query=Real-time%20collaboration%20software%20interface%2C%20team%20productivity%20dashboard%2C%20modern%20workspace%20application%2C%20clean%20design%20with%20chat%20panels%20and%20document%20editing%2C%20professional%20team%20collaboration%20tool%20interface&width=600&height=400&seq=collaboration-project&orientation=landscape",
-      technologies: ["Vue.js", "Socket.io", "Express", "Redis"],
-      features: ["Real-time Editing", "Video Conferencing", "File Sharing", "Task Management"],
-      link: "#",
-      github: "#"
+      technologies: ["Laravel", "HTML", "CSS", "Javascript", "Jquery", "Google Place API","MySQL"],
+      features: ["Location Targeting", "Ranking Business"],
+      link: "https://local.myspotlight.co/",
     },
     {
-      title: "Financial Analytics Dashboard",
-      category: "Enterprise",
-      description: "Advanced financial reporting system with predictive analytics and automated reporting.",
-      image: "https://readdy.ai/api/search-image?query=Financial%20analytics%20dashboard%20interface%2C%20data%20visualization%20charts%20and%20graphs%2C%20modern%20business%20intelligence%20platform%2C%20clean%20professional%20design%20with%20financial%20metrics%2C%20charts%20and%20KPI%20displays&width=600&height=400&seq=finance-project&orientation=landscape",
-      technologies: ["React", "D3.js", "Python", "Machine Learning"],
-      features: ["Predictive Analytics", "Automated Reports", "Data Visualization", "Export Capabilities"],
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Healthcare Management System",
-      category: "Enterprise",
-      description: "Comprehensive patient management system for hospitals with appointment scheduling and records.",
-      image: "https://readdy.ai/api/search-image?query=Healthcare%20management%20system%20interface%2C%20medical%20software%20dashboard%2C%20patient%20records%20management%2C%20clean%20hospital%20administration%20software%2C%20professional%20healthcare%20application%20design%20with%20medical%20charts%20and%20patient%20data&width=600&height=400&seq=healthcare-project&orientation=landscape",
-      technologies: ["Angular", "Spring Boot", "MySQL", "Security"],
-      features: ["Patient Records", "Appointment System", "Medical History", "HIPAA Compliant"],
-      link: "#",
-      github: "#"
-    },
-    {
-      title: "Social Media Analytics Tool",
+      title: "Singleinterface",
       category: "Web Apps",
-      description: "Comprehensive social media monitoring and analytics platform for brands and agencies.",
+      description: "SingleInterface is an AI Retail Tech platform that helps multi-location businesses, like retail chains and banks.",
+      image: "https://readdy.ai/api/search-image?query=Financial%20analytics%20dashboard%20interface%2C%20data%20visualization%20charts%20and%20graphs%2C%20modern%20business%20intelligence%20platform%2C%20clean%20professional%20design%20with%20financial%20metrics%2C%20charts%20and%20KPI%20displays&width=600&height=400&seq=finance-project&orientation=landscape",
+      technologies: ["CakePHP","MySQL","HTML","CSS","JavaScript","jQuery"],
+      features: ["Presence AI","Reviews AI","Engagement AI","Campaigns AI","Insights AI","Hyperlocal Ads","Transaction Management","Reputation Management","Local SEO Optimization"],
+      link: "https://www.singleinterface.com/"
+    },
+    {
+      title: "Client Landing Pages (Spotlight)",
+      category: "Landing Pages",
+      description: "These are highly focused, standalone web pages created specifically for a marketing or advertising campaign.",
+      image: "https://readdy.ai/api/search-image?query=Healthcare%20management%20system%20interface%2C%20medical%20software%20dashboard%2C%20patient%20records%20management%2C%20clean%20hospital%20administration%20software%2C%20professional%20healthcare%20application%20design%20with%20medical%20charts%20and%20patient%20data&width=600&height=400&seq=healthcare-project&orientation=landscape",
+      technologies: ["CakePHP","MySQL","HTML","CSS","JavaScript","jQuery"],
+      features: ["Single, clear goal for the visitor.","No navigation menu.","Strong headline that aligns with the ad copy.","Mobile-friendly design."],
+    },
+    {
+      title: "Call API",
+      category: "Rest API",
+      description: "Use to get call leads from different providers",
       image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
-      technologies: ["React", "GraphQL", "Node.js", "APIs"],
-      features: ["Multi-platform Integration", "Sentiment Analysis", "Automated Reporting", "Team Collaboration"],
-      link: "#",
-      github: "#"
-    }
+      technologies: ["Core PHP","MySQL","CURL"],
+      features: ["REST API"],
+    },
+    {
+      title: "Mercury Solutions",
+      category: "Web Apps",
+      description: "This official website of Mercury Solutions Limited. Company provide various courses of Microsoft, VMware, Oracle etc. to customers. Site is fully based on E-Commerce phenomena. Customers can add course in there cart, pay for that and get certified. This project is running currently. Right now I’m working on chat module of this project.",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Cake PHP","MySQL","JavaScript","jQuery","HTML","CSS"],
+      features: ["Training courses","Certifications","Live Virtual Training","On-demand training","Bootcamps"],
+      link: "https://www.mercurysolutions.co/"
+    },
+    {
+      title: "Oracle Official Training",
+      category: "Web Apps",
+      description: "Another Project of Mercury Solutions Limited. This project contain full information of courses of Oracle. Courses divide in categories. Customer can select course and enquire for batch.",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Cake PHP","MySQL","JavaScript","jQuery","HTML","CSS"],
+      features: ["Oracle Training courses","Certifications","Bootcamps"],
+    },
+    {
+      title: "Microsoft Official Training",
+      category: "Web Apps",
+      description: "Same as Oracle Official Training this project contain full information of courses of Microsoft. This site provide roadmap of Microsoft trainings. Customer can click on course code and all batches of that course will be shown below.",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Cake PHP","MySQL","JavaScript","jQuery","HTML","CSS"],
+      features: ["Microsoft Training courses","Certifications","Live Virtual Training","On-demand training","Bootcamps"],
+    },
+    {
+      title: "Book My Astrologer",
+      category: "Web Apps",
+      description: "A CMS based website and Application based online system to book Pandits / Astrologers / Pooja Items.",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Core PHP","Dreamweaver","Photoshop","JavaScript","Ajax","HTML","CSS","Bootstrap","MySQL"],
+      features: ["Booking Pandits","Booking Astrologers","Booking Pooja Items","User Management","Profile Creation","Search and Filter Functionality","Secure Payment Gateway"],
+    },
+    {
+      title: "e - Carwiz",
+      category: "Web Apps",
+      description: "CMS with CMS based website with Landing Page to completely add Services and Products",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Core PHP","Dreamweaver","Photoshop","JavaScript","Ajax","HTML","CSS","Bootstrap","MySQL"],
+      features: ["Car Services","Products","Contact Forms","Dynamic Content","SEO tools","Analytics","User Management","E-commerce integration"],
+    },
+    {
+      title: "Nurture Pods",
+      category: "Web Apps",
+      description: "A CMS with Website is based on appointment / booking for therapist for the Medical Center",
+      image: "https://readdy.ai/api/search-image?query=Social%20media%20analytics%20dashboard%20interface%2C%20social%20network%20monitoring%20tool%2C%20engagement%20metrics%20visualization%2C%20modern%20social%20media%20management%20platform%2C%20clean%20interface%20with%20charts%20and%20social%20media%20data&width=600&height=400&seq=social-project&orientation=landscape",
+      technologies: ["Core PHP","Dreamweaver","Photoshop","JavaScript","Ajax","HTML","CSS","Bootstrap","MySQL"],
+      features: ["Online appointment booking","Therapist profiles","Medical history and notes"],
+    },
   ];
 
   const filteredProjects = activeCategory === 'All' 
@@ -163,18 +203,17 @@ export default function Projects() {
                 </div>
                 
                 <div className="flex gap-4">
-                  <button className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer transform">
+                  { project.link ? <a href={project.link} className="text-center flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer transform">
                     <div className="w-4 h-4 flex items-center justify-center mr-2 inline-flex">
                       <i className="ri-external-link-line"></i>
-                    </div>
-                    Live Demo
-                  </button>
-                  <button className="flex-1 border-2 border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:border-gray-400 hover:bg-gray-50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer transform">
+                    </div>Live Demo
+                  </a>:''}
+                  {/* <button className="flex-1 border-2 border-gray-300 text-gray-700 py-2 px-4 rounded-lg hover:border-gray-400 hover:bg-gray-50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 font-medium whitespace-nowrap cursor-pointer transform">
                     <div className="w-4 h-4 flex items-center justify-center mr-2 inline-flex">
                       <i className="ri-github-line"></i>
                     </div>
                     Code
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

@@ -21,8 +21,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Thompson - Technology Lead & Web Developer",
-  description: "Technology Lead with 10+ years experience in full-stack development",
+  title: "Gyandeep Sharma - Associate Technology Manager & Web Developer",
+  description: "Associate Technology Manager with 10+ years experience in full-stack development",
 };
 
 export default function RootLayout({

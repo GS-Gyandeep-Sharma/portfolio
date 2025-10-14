@@ -1,4 +1,4 @@
-// File: C:\Users\gsgya\Documents\portfolio\app\page.tsx
+// File: C:\Users\gsgya\Documents\GitHub\portfolio-gyandeep\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

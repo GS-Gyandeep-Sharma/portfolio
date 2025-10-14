@@ -22,11 +22,11 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-blue-600 transition-colors duration-300">
-            Alex Thompson
+            Gyandeep Sharma
           </Link>
           
           <nav className="hidden md:flex space-x-8">
-            {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item, index) => (
+            {['About', 'Experience', 'Projects', 'Skills', 'Contact', 'Education' ].map((item, index) => (
               <Link 
                 key={item}
                 href={`#${item.toLowerCase()}`} 

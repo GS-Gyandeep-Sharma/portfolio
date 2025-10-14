@@ -2,7 +2,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
-
+import gyandeepsharma from '../public/img/gyandeepsharma.png';
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
@@ -44,9 +44,9 @@ export default function About() {
             <div className="grid grid-cols-2 gap-6">
               {[
                 { icon: 'ri-trophy-fill', color: 'blue', title: '10+ Years', desc: 'Professional Experience', delay: 'delay-200' },
-                { icon: 'ri-team-fill', color: 'green', title: '50+ Projects', desc: 'Successfully Delivered', delay: 'delay-300' },
+                { icon: 'ri-team-fill', color: 'green', title: '15+ Projects', desc: 'Successfully Delivered', delay: 'delay-300' },
                 { icon: 'ri-settings-3-fill', color: 'purple', title: '15+ Technologies', desc: 'Mastered & Applied', delay: 'delay-400' },
-                { icon: 'ri-user-star-fill', color: 'orange', title: 'Team Leader', desc: 'Managing 8+ Developers', delay: 'delay-500' }
+                { icon: 'ri-user-star-fill', color: 'orange', title: 'Associate Technology Manager', desc: 'Managing 5+ Developers', delay: 'delay-500' }
               ].map((item, index) => (
                 <div key={index} className={`bg-white p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-500 ${item.delay} transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`}>
                   <div className={`w-12 h-12 flex items-center justify-center bg-${item.color}-100 rounded-lg mb-4 transform group-hover:scale-110 transition-transform duration-300`}>
@@ -62,7 +62,7 @@ export default function About() {
           <div className={`relative transform transition-all duration-1000 delay-300 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
             <div className="relative overflow-hidden rounded-2xl">
               <img 
-                src="https://readdy.ai/api/search-image?query=Professional%20technology%20leader%20portrait%2C%20confident%20male%20developer%20in%20modern%20office%20setting%2C%20wearing%20casual%20business%20attire%2C%20clean%20background%2C%20natural%20lighting%2C%20approachable%20expression%2C%20contemporary%20workspace%20environment%2C%20high%20quality%20professional%20headshot%20style&width=600&height=800&seq=about-portrait&orientation=portrait"
+                src={gyandeepsharma.src}
                 alt="Technology Lead Portrait"
                 className="w-full rounded-2xl shadow-lg object-cover object-top hover:scale-105 transition-transform duration-700"
               />

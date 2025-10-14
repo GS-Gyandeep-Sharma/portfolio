@@ -71,10 +71,10 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: 'ri-mail-line', color: 'blue', title: 'Email', info: 'alex.thompson@email.com' },
-                { icon: 'ri-phone-line', color: 'green', title: 'Phone', info: '+1 (555) 123-4567' },
-                { icon: 'ri-map-pin-line', color: 'purple', title: 'Location', info: 'San Francisco, CA' },
-                { icon: 'ri-linkedin-line', color: 'orange', title: 'LinkedIn', info: 'linkedin.com/in/alexthompson' }
+                { icon: 'ri-mail-line', color: 'blue', title: 'Email', info: 'gsgyandeepsharma@gmail.com' },
+                //{ icon: 'ri-phone-line', color: 'green', title: 'Phone', info: '+1 (555) 123-4567' },
+                { icon: 'ri-map-pin-line', color: 'purple', title: 'Location', info: 'Agra Uttar Pradesh' },
+                { icon: 'ri-linkedin-line', color: 'orange', title: 'LinkedIn', info: 'https://www.linkedin.com/in/gyandeepsharma/' }
               ].map((contact, index) => (
                 <div key={index} className={`flex items-center transform transition-all duration-700 hover:translate-x-2 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`} style={{ transitionDelay: `${(index + 1) * 200}ms` }}>
                   <div className={`w-12 h-12 flex items-center justify-center bg-${contact.color}-100 rounded-lg mr-4 hover:scale-110 transition-transform duration-300`}>
@@ -94,7 +94,7 @@ export default function Contact() {
                 {[
                   { icon: 'ri-github-fill', color: 'bg-gray-900 hover:bg-gray-800' },
                   { icon: 'ri-linkedin-fill', color: 'bg-blue-600 hover:bg-blue-700' },
-                  { icon: 'ri-twitter-fill', color: 'bg-blue-400 hover:bg-blue-500' },
+                  //{ icon: 'ri-twitter-fill', color: 'bg-blue-400 hover:bg-blue-500' },
                   { icon: 'ri-stack-overflow-line', color: 'bg-gray-600 hover:bg-gray-700' }
                 ].map((social, index) => (
                   <div key={index} className={`w-10 h-10 flex items-center justify-center ${social.color} rounded-lg cursor-pointer hover:scale-110 hover:-translate-y-1 transition-all duration-300 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'}`} style={{ transitionDelay: `${800 + index * 100}ms` }}>

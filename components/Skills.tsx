@@ -34,7 +34,8 @@ export default function Skills() {
       skills: [
         { name: "React.js", level: 70 },
         { name: "TypeScript", level: 50 },
-        { name: "Next.js", level: 70 },
+        { name: "Next.js", level: 50 },
+        { name: "Angular.js", level: 60 },
         { name: "Vue.js", level: 10 },
         { name: "Tailwind CSS", level: 60 },
         { name: "JavaScript", level: 95 }
@@ -46,12 +47,14 @@ export default function Skills() {
       color: "green",
       skills: [
         { name: "Cake PHP", level: 95 },
+        { name: "Laravel", level: 80 },
         { name: "PHP", level: 95 },
+        { name: "Python", level: 50 },
         { name: "MySQL", level: 95 },
-        { name: "Codeigniter", level: 70 },
-        { name: "Laravel", level: 80 },        
+        { name: "MongoDB", level: 70 },
+
         { name: "Node.js", level: 20 },
-        { name: "REST APIs", level: 95 } 
+        { name: "REST APIs", level: 95 }
       ]
     },
     {
@@ -117,9 +120,9 @@ export default function Skills() {
                         <span className="text-sm text-gray-600">{skill.level}%</span>
                       </div>
                       <div className="w-full bg-gray-200 rounded-full h-2 overflow-hidden">
-                        <div 
+                        <div
                           className={`h-2 rounded-full ${colorClasses.progress} transition-all duration-1500 ease-out transform origin-left`}
-                          style={{ 
+                          style={{
                             width: animateProgress ? `${skill.level}%` : '0%',
                             transitionDelay: `${index * 200 + idx * 100 + 500}ms`
                           }}

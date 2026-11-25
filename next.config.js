@@ -1,8 +1,10 @@
-// next.config.js
-/** @type {import('next').NextConfig} */ // This JSDoc is fine
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-    // ... any other Next.js configurations
-  };
-  
-  module.exports = nextConfig; // CommonJS export is standard
+  output: 'export',
+  basePath: '/portfolio', // Replace 'reponame' with your exact repository name
+  images: {
+    unoptimized: true,
+  },
+};
+
+export default nextConfig;

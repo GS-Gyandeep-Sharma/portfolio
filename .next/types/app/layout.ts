@@ -1,4 +1,4 @@
-// File: C:\Users\gsgya\Documents\GitHub\portfolio-gyandeep\app\layout.tsx
+// File: /workspaces/portfolio-gyandeep/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
